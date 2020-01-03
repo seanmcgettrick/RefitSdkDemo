@@ -4,8 +4,9 @@ using System.Text;
 
 namespace RefistSdkDemo.ApiContracts.V1.Requests
 {
-    public class CreateTodoRequest
+    public class UpdateTodoRequest
     {
         public string Name { get; set; }
+        public bool IsCompleted { get; set; }
     }
 }

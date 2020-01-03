@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{223717C8-FB4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefitSdkDemo.Api", "src\RefitSdkDemo.Api\RefitSdkDemo.Api.csproj", "{DA6D6BC7-A5FA-4926-B1FB-9C6EC46E0063}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefistSdkDemo.ApiContracts", "RefistSdkDemo.ApiContracts\RefistSdkDemo.ApiContracts.csproj", "{E43B7BF4-5925-459D-8965-44EE9CDE9632}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefistSdkDemo.ApiContracts", "src\RefistSdkDemo.ApiContracts\RefistSdkDemo.ApiContracts.csproj", "{E43B7BF4-5925-459D-8965-44EE9CDE9632}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

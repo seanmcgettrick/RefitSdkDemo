@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using RefitSdkDemo.Api.Domain;
 
 namespace RefitSdkDemo.Api.Data
 {
@@ -12,5 +9,7 @@ namespace RefitSdkDemo.Api.Data
             : base(options)
         {
         }
+
+        public DbSet<Todo> Todos { get; set; }
     }
 }

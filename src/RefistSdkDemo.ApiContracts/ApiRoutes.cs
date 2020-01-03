@@ -10,7 +10,7 @@ namespace RefistSdkDemo.ApiContracts
         public const string Version = "v1";
         public const string Base = Root + "/" + Version;
 
-        public static class Todo
+        public static class Todos
         {
             public const string GetAll = Base + "/todo";
             public const string Get = Base + "/todo/{todoId}";
