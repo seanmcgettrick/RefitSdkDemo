@@ -72,7 +72,9 @@ namespace RefitSdkDemo.Api.Controllers.V1
             if (todo == null)
                 return NotFound(todoId);
 
-            todo.Name = request.Name;
+            if (!string.IsNullOrEmpty(request.Name))
+                todo.Name = request.Name;
+
             todo.IsCompleted = request.IsCompleted;
 
             var updated = await _todoService.UpdateTodoAsync(todo);

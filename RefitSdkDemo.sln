@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{223717C8-FB4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefitSdkDemo.Api", "src\RefitSdkDemo.Api\RefitSdkDemo.Api.csproj", "{DA6D6BC7-A5FA-4926-B1FB-9C6EC46E0063}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefistSdkDemo.ApiContracts", "src\RefistSdkDemo.ApiContracts\RefistSdkDemo.ApiContracts.csproj", "{E43B7BF4-5925-459D-8965-44EE9CDE9632}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefistSdkDemo.ApiContracts", "src\RefistSdkDemo.ApiContracts\RefistSdkDemo.ApiContracts.csproj", "{E43B7BF4-5925-459D-8965-44EE9CDE9632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefistSdkDemo.ApiSdk", "src\RefistSdkDemo.ApiSdk\RefistSdkDemo.ApiSdk.csproj", "{D22AC933-B291-4140-A7C7-C0C4B7DEDD87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefitSdkDemo.ApiSdkClient", "src\RefitSdkDemo.ApiSdkClient\RefitSdkDemo.ApiSdkClient.csproj", "{33CADF3C-4837-45FF-B5ED-4229189FA7CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,30 @@ Global
 		{E43B7BF4-5925-459D-8965-44EE9CDE9632}.Release|x64.Build.0 = Release|Any CPU
 		{E43B7BF4-5925-459D-8965-44EE9CDE9632}.Release|x86.ActiveCfg = Release|Any CPU
 		{E43B7BF4-5925-459D-8965-44EE9CDE9632}.Release|x86.Build.0 = Release|Any CPU
+		{D22AC933-B291-4140-A7C7-C0C4B7DEDD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22AC933-B291-4140-A7C7-C0C4B7DEDD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22AC933-B291-4140-A7C7-C0C4B7DEDD87}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D22AC933-B291-4140-A7C7-C0C4B7DEDD87}.Debug|x64.Build.0 = Debug|Any CPU
+		{D22AC933-B291-4140-A7C7-C0C4B7DEDD87}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D22AC933-B291-4140-A7C7-C0C4B7DEDD87}.Debug|x86.Build.0 = Debug|Any CPU
+		{D22AC933-B291-4140-A7C7-C0C4B7DEDD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22AC933-B291-4140-A7C7-C0C4B7DEDD87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22AC933-B291-4140-A7C7-C0C4B7DEDD87}.Release|x64.ActiveCfg = Release|Any CPU
+		{D22AC933-B291-4140-A7C7-C0C4B7DEDD87}.Release|x64.Build.0 = Release|Any CPU
+		{D22AC933-B291-4140-A7C7-C0C4B7DEDD87}.Release|x86.ActiveCfg = Release|Any CPU
+		{D22AC933-B291-4140-A7C7-C0C4B7DEDD87}.Release|x86.Build.0 = Release|Any CPU
+		{33CADF3C-4837-45FF-B5ED-4229189FA7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CADF3C-4837-45FF-B5ED-4229189FA7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CADF3C-4837-45FF-B5ED-4229189FA7CF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{33CADF3C-4837-45FF-B5ED-4229189FA7CF}.Debug|x64.Build.0 = Debug|Any CPU
+		{33CADF3C-4837-45FF-B5ED-4229189FA7CF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{33CADF3C-4837-45FF-B5ED-4229189FA7CF}.Debug|x86.Build.0 = Debug|Any CPU
+		{33CADF3C-4837-45FF-B5ED-4229189FA7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CADF3C-4837-45FF-B5ED-4229189FA7CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CADF3C-4837-45FF-B5ED-4229189FA7CF}.Release|x64.ActiveCfg = Release|Any CPU
+		{33CADF3C-4837-45FF-B5ED-4229189FA7CF}.Release|x64.Build.0 = Release|Any CPU
+		{33CADF3C-4837-45FF-B5ED-4229189FA7CF}.Release|x86.ActiveCfg = Release|Any CPU
+		{33CADF3C-4837-45FF-B5ED-4229189FA7CF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +78,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DA6D6BC7-A5FA-4926-B1FB-9C6EC46E0063} = {223717C8-FB4F-4FB0-BEA1-2E4772FFD9A4}
 		{E43B7BF4-5925-459D-8965-44EE9CDE9632} = {223717C8-FB4F-4FB0-BEA1-2E4772FFD9A4}
+		{D22AC933-B291-4140-A7C7-C0C4B7DEDD87} = {223717C8-FB4F-4FB0-BEA1-2E4772FFD9A4}
+		{33CADF3C-4837-45FF-B5ED-4229189FA7CF} = {223717C8-FB4F-4FB0-BEA1-2E4772FFD9A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA48B5A7-ECA7-461F-A3D8-B0C17A5E1687}

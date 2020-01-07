@@ -12,11 +12,11 @@ namespace RefistSdkDemo.ApiContracts
 
         public static class Todos
         {
-            public const string GetAll = Base + "/todo";
-            public const string Get = Base + "/todo/{todoId}";
-            public const string Create = Base + "/todo";
-            public const string Update = Base + "/todo/{todoId}";
-            public const string Delete = Base + "/todo/{todoId}";
+            public const string GetAll = Base + "/todos";
+            public const string Get = Base + "/todos/{todoId}";
+            public const string Create = Base + "/todos";
+            public const string Update = Base + "/todos/{todoId}";
+            public const string Delete = Base + "/todos/{todoId}";
         }
     }
 }
