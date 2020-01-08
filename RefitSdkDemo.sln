@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefitSdkDemo.Api", "src\Ref
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefistSdkDemo.ApiContracts", "src\RefistSdkDemo.ApiContracts\RefistSdkDemo.ApiContracts.csproj", "{E43B7BF4-5925-459D-8965-44EE9CDE9632}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefistSdkDemo.ApiSdk", "src\RefistSdkDemo.ApiSdk\RefistSdkDemo.ApiSdk.csproj", "{D22AC933-B291-4140-A7C7-C0C4B7DEDD87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefistSdkDemo.ApiSdk", "src\RefistSdkDemo.ApiSdk\RefistSdkDemo.ApiSdk.csproj", "{D22AC933-B291-4140-A7C7-C0C4B7DEDD87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefitSdkDemo.ApiSdkClient", "src\RefitSdkDemo.ApiSdkClient\RefitSdkDemo.ApiSdkClient.csproj", "{33CADF3C-4837-45FF-B5ED-4229189FA7CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefitSdkDemo.ApiSdkClient", "src\RefitSdkDemo.ApiSdkClient\RefitSdkDemo.ApiSdkClient.csproj", "{33CADF3C-4837-45FF-B5ED-4229189FA7CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefistSdkDemo.PlainClient", "src\RefistSdkDemo.PlainClient\RefistSdkDemo.PlainClient.csproj", "{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,18 @@ Global
 		{33CADF3C-4837-45FF-B5ED-4229189FA7CF}.Release|x64.Build.0 = Release|Any CPU
 		{33CADF3C-4837-45FF-B5ED-4229189FA7CF}.Release|x86.ActiveCfg = Release|Any CPU
 		{33CADF3C-4837-45FF-B5ED-4229189FA7CF}.Release|x86.Build.0 = Release|Any CPU
+		{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7}.Debug|x64.Build.0 = Debug|Any CPU
+		{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7}.Debug|x86.Build.0 = Debug|Any CPU
+		{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7}.Release|x64.ActiveCfg = Release|Any CPU
+		{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7}.Release|x64.Build.0 = Release|Any CPU
+		{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7}.Release|x86.ActiveCfg = Release|Any CPU
+		{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
