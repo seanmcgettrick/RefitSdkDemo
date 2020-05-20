@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefistSdkDemo.ApiSdk", "src
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefitSdkDemo.ApiSdkClient", "src\RefitSdkDemo.ApiSdkClient\RefitSdkDemo.ApiSdkClient.csproj", "{33CADF3C-4837-45FF-B5ED-4229189FA7CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefistSdkDemo.PlainClient", "src\RefistSdkDemo.PlainClient\RefistSdkDemo.PlainClient.csproj", "{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefistSdkDemo.PlainClient", "src\RefistSdkDemo.PlainClient\RefistSdkDemo.PlainClient.csproj", "{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,6 +94,7 @@ Global
 		{E43B7BF4-5925-459D-8965-44EE9CDE9632} = {223717C8-FB4F-4FB0-BEA1-2E4772FFD9A4}
 		{D22AC933-B291-4140-A7C7-C0C4B7DEDD87} = {223717C8-FB4F-4FB0-BEA1-2E4772FFD9A4}
 		{33CADF3C-4837-45FF-B5ED-4229189FA7CF} = {223717C8-FB4F-4FB0-BEA1-2E4772FFD9A4}
+		{BCDF2397-2ECA-43B8-8A5F-16C1DD9A49A7} = {223717C8-FB4F-4FB0-BEA1-2E4772FFD9A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA48B5A7-ECA7-461F-A3D8-B0C17A5E1687}
